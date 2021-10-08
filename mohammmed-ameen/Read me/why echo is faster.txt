@@ -1,0 +1,9 @@
+why echo is faster?
+
+ When you are using loops, of course, php checks if echo has multiple values to print or not,
+ but always print can take only one parameter and it's not needed to be checked in loops. 
+also when there are multiple values for echo bad things come through,
+ like converting them to string and streaming them,
+ I do believe that in huge hypertexts these problem come through too because you are forcing php to process before printing.
+ But in small jobs like printing, only a small string echo I good (if you consider concatenations) because it doesn't return anything like print.
+

@@ -1,0 +1,13 @@
+echo vs print?
+
+The main difference between the print and echo statement is that echo does not behave like a function whereas print behaves like a function. 
+
+The print statement can have only one argument at a time and thus can print a single string
+
+echo allows you to pass multiple strings when using it as if it were a function (e.g., echo($var1, $var2, $var3)).
+
+As far as which is faster, there are many online resources that attempt to answer that question.
+
+ The one small thing to notice is that when using a comma to separate items whilst using the echo function, items run slightly faster."
+
+It will really come down to your preference, since the differences in speed (whatever they actually are) are negligible.
