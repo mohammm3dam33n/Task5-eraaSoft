@@ -39,7 +39,7 @@ var_dump($description);//String
 
 
 echo "<br>";
-echo "<br>";
+echo "<hr>";
 echo "<br>";
 
 
@@ -49,11 +49,14 @@ echo "<br>";
 $str1 = "  Does this string contain a whitespace ' ' ?    ";
  $str2 = "  What_about_this?  ";
  echo str_replace("  ","",$str1);
+ echo "<br>";
+ echo str_replace("  ","",$str2);
+
 
 
 
  echo "<br>";
- echo "<br>";
+ echo "<hr>";
  echo "<br>";
 
 
@@ -69,7 +72,7 @@ echo "<br>";
 
 
   echo "<br>";
-  echo "<br>"; 
+  echo "<hr>";
   echo "<br>"; 
 
 
